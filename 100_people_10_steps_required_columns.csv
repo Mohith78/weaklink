@@ -1,0 +1,1001 @@
+Person,Process/Step,Time,Failure,Dependency
+P1,Order Placed,1.279,0.019,1
+P1,Payment Confirmation,1.065,0.029,2
+P1,Restaurant Acceptance,0.13,0.027,3
+P1,Ingredient Preparation,0.575,0.081,4
+P1,Cooking,0.055,0.029,5
+P1,Packaging,0.247,0.069,6
+P1,Pickup,1.179,0.022,7
+P1,Transit,0.474,0.067,8
+P1,Out for Delivery,1.07,0.057,9
+P1,Delivered,0.49,0.113,10
+P2,Order Placed,0.095,0.079,1
+P2,Payment Confirmation,1.282,0.024,2
+P2,Restaurant Acceptance,0.136,0.069,3
+P2,Ingredient Preparation,0.569,0.102,4
+P2,Cooking,0.997,0.111,5
+P2,Packaging,1.146,0.035,6
+P2,Pickup,0.688,0.017,7
+P2,Transit,0.856,0.013,8
+P2,Out for Delivery,1.07,0.103,9
+P2,Delivered,0.942,0.117,10
+P3,Order Placed,0.193,0.037,1
+P3,Payment Confirmation,1.153,0.049,2
+P3,Restaurant Acceptance,0.23,0.091,3
+P3,Ingredient Preparation,0.171,0.114,4
+P3,Cooking,0.435,0.077,5
+P3,Packaging,0.352,0.034,6
+P3,Pickup,1.164,0.068,7
+P3,Transit,0.483,0.041,8
+P3,Out for Delivery,0.178,0.114,9
+P3,Delivered,1.174,0.106,10
+P4,Order Placed,0.417,0.065,1
+P4,Payment Confirmation,0.184,0.077,2
+P4,Restaurant Acceptance,0.58,0.013,3
+P4,Ingredient Preparation,1.025,0.02,4
+P4,Cooking,1.221,0.087,5
+P4,Packaging,0.274,0.076,6
+P4,Pickup,0.526,0.035,7
+P4,Transit,0.56,0.058,8
+P4,Out for Delivery,1.016,0.02,9
+P4,Delivered,0.652,0.09,10
+P5,Order Placed,1.226,0.018,1
+P5,Payment Confirmation,1.169,0.101,2
+P5,Restaurant Acceptance,1.126,0.046,3
+P5,Ingredient Preparation,1.427,0.03,4
+P5,Cooking,0.608,0.017,5
+P5,Packaging,1.144,0.011,6
+P5,Pickup,1.152,0.044,7
+P5,Transit,0.741,0.036,8
+P5,Out for Delivery,0.279,0.027,9
+P5,Delivered,1.46,0.028,10
+P6,Order Placed,0.947,0.095,1
+P6,Payment Confirmation,1.394,0.107,2
+P6,Restaurant Acceptance,0.96,0.046,3
+P6,Ingredient Preparation,0.526,0.035,4
+P6,Cooking,0.18,0.04,5
+P6,Packaging,1.357,0.078,6
+P6,Pickup,0.432,0.027,7
+P6,Transit,1.258,0.114,8
+P6,Out for Delivery,1.469,0.022,9
+P6,Delivered,1.461,0.051,10
+P7,Order Placed,0.767,0.017,1
+P7,Payment Confirmation,0.587,0.078,2
+P7,Restaurant Acceptance,0.649,0.108,3
+P7,Ingredient Preparation,1.38,0.071,4
+P7,Cooking,0.494,0.015,5
+P7,Packaging,0.692,0.107,6
+P7,Pickup,1.433,0.113,7
+P7,Transit,0.925,0.053,8
+P7,Out for Delivery,1.293,0.037,9
+P7,Delivered,0.194,0.095,10
+P8,Order Placed,0.355,0.012,1
+P8,Payment Confirmation,0.52,0.107,2
+P8,Restaurant Acceptance,1.206,0.056,3
+P8,Ingredient Preparation,0.197,0.026,4
+P8,Cooking,0.558,0.043,5
+P8,Packaging,1.321,0.069,6
+P8,Pickup,0.643,0.078,7
+P8,Transit,0.224,0.118,8
+P8,Out for Delivery,0.922,0.044,9
+P8,Delivered,0.127,0.09,10
+P9,Order Placed,1.404,0.023,1
+P9,Payment Confirmation,1.275,0.112,2
+P9,Restaurant Acceptance,1.466,0.038,3
+P9,Ingredient Preparation,1.103,0.047,4
+P9,Cooking,0.194,0.01,5
+P9,Packaging,1.154,0.013,6
+P9,Pickup,0.068,0.107,7
+P9,Transit,0.503,0.061,8
+P9,Out for Delivery,1.259,0.065,9
+P9,Delivered,1.474,0.057,10
+P10,Order Placed,0.507,0.058,1
+P10,Payment Confirmation,1.349,0.116,2
+P10,Restaurant Acceptance,0.26,0.116,3
+P10,Ingredient Preparation,1.243,0.046,4
+P10,Cooking,0.739,0.087,5
+P10,Packaging,0.797,0.11,6
+P10,Pickup,0.071,0.053,7
+P10,Transit,1.147,0.107,8
+P10,Out for Delivery,1.177,0.037,9
+P10,Delivered,1.391,0.114,10
+P11,Order Placed,1.16,0.095,1
+P11,Payment Confirmation,0.939,0.061,2
+P11,Restaurant Acceptance,0.116,0.094,3
+P11,Ingredient Preparation,0.84,0.085,4
+P11,Cooking,0.612,0.057,5
+P11,Packaging,0.729,0.11,6
+P11,Pickup,1.383,0.093,7
+P11,Transit,0.962,0.017,8
+P11,Out for Delivery,1.134,0.06,9
+P11,Delivered,1.219,0.087,10
+P12,Order Placed,1.225,0.013,1
+P12,Payment Confirmation,0.386,0.041,2
+P12,Restaurant Acceptance,0.366,0.1,3
+P12,Ingredient Preparation,0.124,0.111,4
+P12,Cooking,0.211,0.04,5
+P12,Packaging,0.697,0.117,6
+P12,Pickup,0.802,0.09,7
+P12,Transit,0.491,0.117,8
+P12,Out for Delivery,1.006,0.119,9
+P12,Delivered,0.525,0.088,10
+P13,Order Placed,0.782,0.117,1
+P13,Payment Confirmation,0.994,0.067,2
+P13,Restaurant Acceptance,1.198,0.12,3
+P13,Ingredient Preparation,0.732,0.023,4
+P13,Cooking,0.167,0.043,5
+P13,Packaging,0.229,0.065,6
+P13,Pickup,1.072,0.07,7
+P13,Transit,1.292,0.096,8
+P13,Out for Delivery,1.443,0.052,9
+P13,Delivered,0.497,0.085,10
+P14,Order Placed,0.721,0.067,1
+P14,Payment Confirmation,1.018,0.027,2
+P14,Restaurant Acceptance,1.318,0.036,3
+P14,Ingredient Preparation,0.975,0.025,4
+P14,Cooking,0.429,0.102,5
+P14,Packaging,1.335,0.074,6
+P14,Pickup,1.467,0.1,7
+P14,Transit,0.379,0.028,8
+P14,Out for Delivery,0.58,0.033,9
+P14,Delivered,0.686,0.026,10
+P15,Order Placed,0.743,0.096,1
+P15,Payment Confirmation,1.403,0.088,2
+P15,Restaurant Acceptance,0.845,0.044,3
+P15,Ingredient Preparation,1.118,0.065,4
+P15,Cooking,0.474,0.081,5
+P15,Packaging,0.111,0.04,6
+P15,Pickup,0.375,0.022,7
+P15,Transit,0.4,0.018,8
+P15,Out for Delivery,0.86,0.032,9
+P15,Delivered,0.454,0.118,10
+P16,Order Placed,1.453,0.095,1
+P16,Payment Confirmation,1.152,0.076,2
+P16,Restaurant Acceptance,1.043,0.055,3
+P16,Ingredient Preparation,1.312,0.02,4
+P16,Cooking,1.315,0.083,5
+P16,Packaging,0.751,0.108,6
+P16,Pickup,0.566,0.06,7
+P16,Transit,1.5,0.034,8
+P16,Out for Delivery,1.047,0.103,9
+P16,Delivered,0.601,0.065,10
+P17,Order Placed,1.486,0.103,1
+P17,Payment Confirmation,1.176,0.07,2
+P17,Restaurant Acceptance,0.069,0.063,3
+P17,Ingredient Preparation,0.065,0.073,4
+P17,Cooking,0.631,0.072,5
+P17,Packaging,1.174,0.026,6
+P17,Pickup,1.137,0.084,7
+P17,Transit,0.798,0.012,8
+P17,Out for Delivery,1.123,0.049,9
+P17,Delivered,0.591,0.054,10
+P18,Order Placed,1.076,0.114,1
+P18,Payment Confirmation,0.109,0.108,2
+P18,Restaurant Acceptance,1.169,0.105,3
+P18,Ingredient Preparation,0.614,0.036,4
+P18,Cooking,1.071,0.078,5
+P18,Packaging,1.343,0.048,6
+P18,Pickup,1.256,0.117,7
+P18,Transit,0.463,0.037,8
+P18,Out for Delivery,0.089,0.079,9
+P18,Delivered,0.601,0.029,10
+P19,Order Placed,0.817,0.107,1
+P19,Payment Confirmation,0.201,0.1,2
+P19,Restaurant Acceptance,0.807,0.096,3
+P19,Ingredient Preparation,0.389,0.016,4
+P19,Cooking,0.124,0.111,5
+P19,Packaging,1.108,0.049,6
+P19,Pickup,0.271,0.098,7
+P19,Transit,1.132,0.051,8
+P19,Out for Delivery,0.422,0.084,9
+P19,Delivered,0.498,0.096,10
+P20,Order Placed,0.301,0.022,1
+P20,Payment Confirmation,1.427,0.064,2
+P20,Restaurant Acceptance,1.082,0.043,3
+P20,Ingredient Preparation,0.599,0.108,4
+P20,Cooking,0.201,0.056,5
+P20,Packaging,0.164,0.088,6
+P20,Pickup,1.452,0.085,7
+P20,Transit,0.128,0.114,8
+P20,Out for Delivery,0.497,0.017,9
+P20,Delivered,1.255,0.061,10
+P21,Order Placed,1.42,0.063,1
+P21,Payment Confirmation,1.138,0.099,2
+P21,Restaurant Acceptance,0.684,0.039,3
+P21,Ingredient Preparation,0.473,0.066,4
+P21,Cooking,0.366,0.07,5
+P21,Packaging,0.521,0.042,6
+P21,Pickup,0.28,0.036,7
+P21,Transit,0.447,0.12,8
+P21,Out for Delivery,0.79,0.108,9
+P21,Delivered,0.443,0.054,10
+P22,Order Placed,0.375,0.086,1
+P22,Payment Confirmation,0.194,0.012,2
+P22,Restaurant Acceptance,0.303,0.098,3
+P22,Ingredient Preparation,0.369,0.085,4
+P22,Cooking,1.066,0.064,5
+P22,Packaging,1.037,0.035,6
+P22,Pickup,0.423,0.038,7
+P22,Transit,0.228,0.072,8
+P22,Out for Delivery,0.831,0.074,9
+P22,Delivered,0.436,0.043,10
+P23,Order Placed,0.149,0.052,1
+P23,Payment Confirmation,1.225,0.016,2
+P23,Restaurant Acceptance,1.324,0.021,3
+P23,Ingredient Preparation,0.696,0.082,4
+P23,Cooking,1.336,0.072,5
+P23,Packaging,0.201,0.071,6
+P23,Pickup,1.18,0.056,7
+P23,Transit,1.487,0.044,8
+P23,Out for Delivery,1.245,0.028,9
+P23,Delivered,0.408,0.106,10
+P24,Order Placed,0.063,0.019,1
+P24,Payment Confirmation,0.349,0.053,2
+P24,Restaurant Acceptance,0.741,0.046,3
+P24,Ingredient Preparation,0.107,0.03,4
+P24,Cooking,0.812,0.093,5
+P24,Packaging,0.584,0.083,6
+P24,Pickup,0.128,0.076,7
+P24,Transit,0.708,0.051,8
+P24,Out for Delivery,0.637,0.033,9
+P24,Delivered,0.16,0.08,10
+P25,Order Placed,0.967,0.018,1
+P25,Payment Confirmation,1.275,0.074,2
+P25,Restaurant Acceptance,1.489,0.022,3
+P25,Ingredient Preparation,0.498,0.112,4
+P25,Cooking,0.33,0.1,5
+P25,Packaging,0.51,0.069,6
+P25,Pickup,0.257,0.09,7
+P25,Transit,0.194,0.045,8
+P25,Out for Delivery,0.748,0.074,9
+P25,Delivered,1.259,0.037,10
+P26,Order Placed,1.45,0.024,1
+P26,Payment Confirmation,1.297,0.089,2
+P26,Restaurant Acceptance,0.423,0.089,3
+P26,Ingredient Preparation,1.056,0.065,4
+P26,Cooking,0.76,0.082,5
+P26,Packaging,0.438,0.017,6
+P26,Pickup,1.376,0.115,7
+P26,Transit,0.794,0.012,8
+P26,Out for Delivery,0.528,0.011,9
+P26,Delivered,1.084,0.032,10
+P27,Order Placed,1.3,0.058,1
+P27,Payment Confirmation,0.453,0.035,2
+P27,Restaurant Acceptance,0.923,0.022,3
+P27,Ingredient Preparation,0.143,0.116,4
+P27,Cooking,1.033,0.112,5
+P27,Packaging,0.801,0.023,6
+P27,Pickup,1.493,0.027,7
+P27,Transit,0.773,0.012,8
+P27,Out for Delivery,1.47,0.048,9
+P27,Delivered,0.459,0.094,10
+P28,Order Placed,0.72,0.087,1
+P28,Payment Confirmation,0.47,0.037,2
+P28,Restaurant Acceptance,0.236,0.032,3
+P28,Ingredient Preparation,0.787,0.025,4
+P28,Cooking,0.158,0.018,5
+P28,Packaging,0.479,0.067,6
+P28,Pickup,0.652,0.11,7
+P28,Transit,1.293,0.018,8
+P28,Out for Delivery,1.136,0.017,9
+P28,Delivered,0.874,0.109,10
+P29,Order Placed,0.627,0.09,1
+P29,Payment Confirmation,1.279,0.042,2
+P29,Restaurant Acceptance,1.152,0.096,3
+P29,Ingredient Preparation,1.44,0.073,4
+P29,Cooking,0.591,0.115,5
+P29,Packaging,0.969,0.094,6
+P29,Pickup,0.413,0.031,7
+P29,Transit,0.072,0.058,8
+P29,Out for Delivery,0.311,0.067,9
+P29,Delivered,1.267,0.086,10
+P30,Order Placed,1.057,0.025,1
+P30,Payment Confirmation,0.641,0.111,2
+P30,Restaurant Acceptance,0.153,0.052,3
+P30,Ingredient Preparation,0.955,0.06,4
+P30,Cooking,1.162,0.051,5
+P30,Packaging,0.827,0.05,6
+P30,Pickup,1.229,0.068,7
+P30,Transit,1.494,0.012,8
+P30,Out for Delivery,0.858,0.104,9
+P30,Delivered,1.474,0.1,10
+P31,Order Placed,0.352,0.016,1
+P31,Payment Confirmation,0.622,0.073,2
+P31,Restaurant Acceptance,1.177,0.031,3
+P31,Ingredient Preparation,1.373,0.037,4
+P31,Cooking,1.325,0.108,5
+P31,Packaging,0.121,0.109,6
+P31,Pickup,0.912,0.059,7
+P31,Transit,0.569,0.056,8
+P31,Out for Delivery,0.426,0.09,9
+P31,Delivered,0.651,0.04,10
+P32,Order Placed,1.019,0.056,1
+P32,Payment Confirmation,1.023,0.072,2
+P32,Restaurant Acceptance,1.204,0.068,3
+P32,Ingredient Preparation,1.37,0.029,4
+P32,Cooking,0.119,0.104,5
+P32,Packaging,0.38,0.014,6
+P32,Pickup,0.817,0.042,7
+P32,Transit,1.01,0.104,8
+P32,Out for Delivery,1.462,0.014,9
+P32,Delivered,1.464,0.061,10
+P33,Order Placed,0.997,0.103,1
+P33,Payment Confirmation,0.511,0.071,2
+P33,Restaurant Acceptance,0.121,0.021,3
+P33,Ingredient Preparation,0.281,0.041,4
+P33,Cooking,1.438,0.049,5
+P33,Packaging,0.629,0.103,6
+P33,Pickup,0.959,0.01,7
+P33,Transit,0.12,0.02,8
+P33,Out for Delivery,1.167,0.062,9
+P33,Delivered,0.912,0.031,10
+P34,Order Placed,0.32,0.047,1
+P34,Payment Confirmation,0.353,0.019,2
+P34,Restaurant Acceptance,0.281,0.079,3
+P34,Ingredient Preparation,1.466,0.086,4
+P34,Cooking,0.882,0.103,5
+P34,Packaging,0.615,0.02,6
+P34,Pickup,0.175,0.112,7
+P34,Transit,0.204,0.087,8
+P34,Out for Delivery,0.718,0.028,9
+P34,Delivered,1.141,0.032,10
+P35,Order Placed,1.324,0.013,1
+P35,Payment Confirmation,0.267,0.1,2
+P35,Restaurant Acceptance,0.465,0.036,3
+P35,Ingredient Preparation,0.084,0.09,4
+P35,Cooking,1.218,0.066,5
+P35,Packaging,0.839,0.105,6
+P35,Pickup,0.841,0.049,7
+P35,Transit,1.04,0.057,8
+P35,Out for Delivery,0.449,0.098,9
+P35,Delivered,0.437,0.045,10
+P36,Order Placed,0.231,0.098,1
+P36,Payment Confirmation,0.953,0.106,2
+P36,Restaurant Acceptance,0.42,0.063,3
+P36,Ingredient Preparation,0.494,0.064,4
+P36,Cooking,0.758,0.028,5
+P36,Packaging,0.654,0.019,6
+P36,Pickup,1.238,0.118,7
+P36,Transit,0.674,0.092,8
+P36,Out for Delivery,1.297,0.06,9
+P36,Delivered,0.549,0.118,10
+P37,Order Placed,0.155,0.014,1
+P37,Payment Confirmation,1.393,0.048,2
+P37,Restaurant Acceptance,0.725,0.068,3
+P37,Ingredient Preparation,0.974,0.115,4
+P37,Cooking,0.525,0.023,5
+P37,Packaging,0.162,0.04,6
+P37,Pickup,0.553,0.03,7
+P37,Transit,0.567,0.093,8
+P37,Out for Delivery,1.034,0.056,9
+P37,Delivered,0.397,0.077,10
+P38,Order Placed,0.367,0.102,1
+P38,Payment Confirmation,1.18,0.102,2
+P38,Restaurant Acceptance,0.76,0.06,3
+P38,Ingredient Preparation,0.109,0.045,4
+P38,Cooking,0.656,0.08,5
+P38,Packaging,0.281,0.028,6
+P38,Pickup,1.015,0.014,7
+P38,Transit,0.284,0.022,8
+P38,Out for Delivery,1.43,0.111,9
+P38,Delivered,1.186,0.04,10
+P39,Order Placed,0.064,0.071,1
+P39,Payment Confirmation,0.989,0.098,2
+P39,Restaurant Acceptance,0.803,0.101,3
+P39,Ingredient Preparation,0.795,0.041,4
+P39,Cooking,1.373,0.12,5
+P39,Packaging,0.311,0.087,6
+P39,Pickup,0.747,0.088,7
+P39,Transit,0.272,0.027,8
+P39,Out for Delivery,0.259,0.048,9
+P39,Delivered,0.058,0.084,10
+P40,Order Placed,0.186,0.058,1
+P40,Payment Confirmation,1.373,0.027,2
+P40,Restaurant Acceptance,1.023,0.07,3
+P40,Ingredient Preparation,1.47,0.055,4
+P40,Cooking,0.725,0.073,5
+P40,Packaging,1.45,0.092,6
+P40,Pickup,0.854,0.02,7
+P40,Transit,0.856,0.025,8
+P40,Out for Delivery,0.75,0.05,9
+P40,Delivered,1.496,0.036,10
+P41,Order Placed,0.323,0.013,1
+P41,Payment Confirmation,0.095,0.098,2
+P41,Restaurant Acceptance,0.893,0.034,3
+P41,Ingredient Preparation,0.802,0.04,4
+P41,Cooking,0.711,0.07,5
+P41,Packaging,0.66,0.048,6
+P41,Pickup,0.918,0.039,7
+P41,Transit,1.213,0.024,8
+P41,Out for Delivery,0.738,0.087,9
+P41,Delivered,0.907,0.071,10
+P42,Order Placed,0.589,0.01,1
+P42,Payment Confirmation,1.289,0.114,2
+P42,Restaurant Acceptance,0.886,0.034,3
+P42,Ingredient Preparation,0.086,0.084,4
+P42,Cooking,0.687,0.083,5
+P42,Packaging,0.103,0.045,6
+P42,Pickup,0.935,0.021,7
+P42,Transit,0.098,0.012,8
+P42,Out for Delivery,0.829,0.103,9
+P42,Delivered,1.146,0.099,10
+P43,Order Placed,1.023,0.071,1
+P43,Payment Confirmation,0.344,0.104,2
+P43,Restaurant Acceptance,0.645,0.021,3
+P43,Ingredient Preparation,1.04,0.096,4
+P43,Cooking,1.22,0.065,5
+P43,Packaging,1.238,0.099,6
+P43,Pickup,0.424,0.019,7
+P43,Transit,1.212,0.102,8
+P43,Out for Delivery,0.967,0.054,9
+P43,Delivered,1.212,0.077,10
+P44,Order Placed,0.559,0.048,1
+P44,Payment Confirmation,0.494,0.041,2
+P44,Restaurant Acceptance,1.141,0.104,3
+P44,Ingredient Preparation,0.373,0.086,4
+P44,Cooking,0.494,0.034,5
+P44,Packaging,1.111,0.071,6
+P44,Pickup,1.36,0.092,7
+P44,Transit,1.327,0.073,8
+P44,Out for Delivery,0.958,0.088,9
+P44,Delivered,0.419,0.055,10
+P45,Order Placed,1.017,0.026,1
+P45,Payment Confirmation,0.244,0.09,2
+P45,Restaurant Acceptance,0.579,0.048,3
+P45,Ingredient Preparation,0.679,0.097,4
+P45,Cooking,0.188,0.091,5
+P45,Packaging,0.884,0.027,6
+P45,Pickup,0.067,0.024,7
+P45,Transit,0.843,0.081,8
+P45,Out for Delivery,1.174,0.111,9
+P45,Delivered,0.357,0.049,10
+P46,Order Placed,1.378,0.038,1
+P46,Payment Confirmation,1.045,0.087,2
+P46,Restaurant Acceptance,1.289,0.023,3
+P46,Ingredient Preparation,0.391,0.069,4
+P46,Cooking,0.49,0.053,5
+P46,Packaging,1.438,0.072,6
+P46,Pickup,1.104,0.037,7
+P46,Transit,0.642,0.075,8
+P46,Out for Delivery,1.012,0.046,9
+P46,Delivered,0.093,0.083,10
+P47,Order Placed,0.383,0.034,1
+P47,Payment Confirmation,0.845,0.053,2
+P47,Restaurant Acceptance,1.03,0.019,3
+P47,Ingredient Preparation,0.627,0.082,4
+P47,Cooking,0.8,0.086,5
+P47,Packaging,0.998,0.063,6
+P47,Pickup,1.462,0.106,7
+P47,Transit,0.38,0.109,8
+P47,Out for Delivery,0.652,0.082,9
+P47,Delivered,0.251,0.036,10
+P48,Order Placed,0.92,0.025,1
+P48,Payment Confirmation,0.843,0.079,2
+P48,Restaurant Acceptance,0.681,0.069,3
+P48,Ingredient Preparation,1.288,0.092,4
+P48,Cooking,0.637,0.089,5
+P48,Packaging,0.678,0.104,6
+P48,Pickup,1.468,0.095,7
+P48,Transit,0.698,0.048,8
+P48,Out for Delivery,1.285,0.021,9
+P48,Delivered,0.27,0.014,10
+P49,Order Placed,0.286,0.111,1
+P49,Payment Confirmation,0.336,0.046,2
+P49,Restaurant Acceptance,0.715,0.097,3
+P49,Ingredient Preparation,0.998,0.079,4
+P49,Cooking,1.415,0.05,5
+P49,Packaging,0.22,0.117,6
+P49,Pickup,1.115,0.101,7
+P49,Transit,0.529,0.023,8
+P49,Out for Delivery,1.173,0.092,9
+P49,Delivered,0.677,0.029,10
+P50,Order Placed,1.013,0.036,1
+P50,Payment Confirmation,0.174,0.014,2
+P50,Restaurant Acceptance,0.83,0.041,3
+P50,Ingredient Preparation,0.144,0.071,4
+P50,Cooking,0.221,0.018,5
+P50,Packaging,0.944,0.094,6
+P50,Pickup,0.564,0.044,7
+P50,Transit,0.383,0.099,8
+P50,Out for Delivery,0.361,0.079,9
+P50,Delivered,0.186,0.055,10
+P51,Order Placed,1.164,0.01,1
+P51,Payment Confirmation,0.211,0.086,2
+P51,Restaurant Acceptance,0.387,0.119,3
+P51,Ingredient Preparation,1.049,0.088,4
+P51,Cooking,0.588,0.118,5
+P51,Packaging,0.959,0.011,6
+P51,Pickup,0.88,0.032,7
+P51,Transit,1.138,0.066,8
+P51,Out for Delivery,0.248,0.067,9
+P51,Delivered,0.252,0.059,10
+P52,Order Placed,0.931,0.037,1
+P52,Payment Confirmation,1.294,0.118,2
+P52,Restaurant Acceptance,0.138,0.043,3
+P52,Ingredient Preparation,1.375,0.065,4
+P52,Cooking,1.27,0.077,5
+P52,Packaging,0.687,0.018,6
+P52,Pickup,0.913,0.086,7
+P52,Transit,1.277,0.117,8
+P52,Out for Delivery,1.188,0.075,9
+P52,Delivered,1.254,0.048,10
+P53,Order Placed,1.248,0.103,1
+P53,Payment Confirmation,1.361,0.107,2
+P53,Restaurant Acceptance,0.708,0.09,3
+P53,Ingredient Preparation,0.235,0.028,4
+P53,Cooking,0.057,0.059,5
+P53,Packaging,0.613,0.047,6
+P53,Pickup,0.483,0.091,7
+P53,Transit,1.163,0.032,8
+P53,Out for Delivery,1.075,0.066,9
+P53,Delivered,0.1,0.07,10
+P54,Order Placed,0.935,0.104,1
+P54,Payment Confirmation,0.789,0.039,2
+P54,Restaurant Acceptance,0.306,0.11,3
+P54,Ingredient Preparation,0.658,0.084,4
+P54,Cooking,0.065,0.071,5
+P54,Packaging,0.956,0.04,6
+P54,Pickup,1.119,0.09,7
+P54,Transit,0.449,0.115,8
+P54,Out for Delivery,1.211,0.024,9
+P54,Delivered,0.941,0.066,10
+P55,Order Placed,0.819,0.118,1
+P55,Payment Confirmation,1.038,0.043,2
+P55,Restaurant Acceptance,1.292,0.09,3
+P55,Ingredient Preparation,0.698,0.068,4
+P55,Cooking,0.251,0.089,5
+P55,Packaging,0.677,0.111,6
+P55,Pickup,0.903,0.046,7
+P55,Transit,0.663,0.064,8
+P55,Out for Delivery,1.38,0.099,9
+P55,Delivered,0.842,0.04,10
+P56,Order Placed,1.097,0.066,1
+P56,Payment Confirmation,0.619,0.101,2
+P56,Restaurant Acceptance,1.261,0.078,3
+P56,Ingredient Preparation,1.343,0.108,4
+P56,Cooking,0.625,0.061,5
+P56,Packaging,0.786,0.047,6
+P56,Pickup,1.279,0.097,7
+P56,Transit,0.989,0.095,8
+P56,Out for Delivery,0.683,0.079,9
+P56,Delivered,0.443,0.104,10
+P57,Order Placed,0.768,0.015,1
+P57,Payment Confirmation,0.794,0.051,2
+P57,Restaurant Acceptance,1.018,0.106,3
+P57,Ingredient Preparation,1.31,0.049,4
+P57,Cooking,1.002,0.017,5
+P57,Packaging,1.097,0.101,6
+P57,Pickup,1.33,0.017,7
+P57,Transit,0.651,0.018,8
+P57,Out for Delivery,0.463,0.071,9
+P57,Delivered,0.326,0.119,10
+P58,Order Placed,0.405,0.027,1
+P58,Payment Confirmation,0.139,0.051,2
+P58,Restaurant Acceptance,1.223,0.023,3
+P58,Ingredient Preparation,0.12,0.045,4
+P58,Cooking,1.17,0.088,5
+P58,Packaging,0.061,0.023,6
+P58,Pickup,1.182,0.063,7
+P58,Transit,0.193,0.043,8
+P58,Out for Delivery,0.891,0.12,9
+P58,Delivered,0.133,0.024,10
+P59,Order Placed,0.969,0.07,1
+P59,Payment Confirmation,0.899,0.012,2
+P59,Restaurant Acceptance,0.93,0.115,3
+P59,Ingredient Preparation,0.429,0.025,4
+P59,Cooking,0.78,0.047,5
+P59,Packaging,1.3,0.017,6
+P59,Pickup,1.432,0.092,7
+P59,Transit,0.283,0.036,8
+P59,Out for Delivery,1.245,0.092,9
+P59,Delivered,1.418,0.107,10
+P60,Order Placed,0.486,0.039,1
+P60,Payment Confirmation,0.228,0.042,2
+P60,Restaurant Acceptance,0.878,0.085,3
+P60,Ingredient Preparation,1.004,0.071,4
+P60,Cooking,1.493,0.05,5
+P60,Packaging,1.271,0.02,6
+P60,Pickup,1.216,0.069,7
+P60,Transit,1.008,0.032,8
+P60,Out for Delivery,0.295,0.093,9
+P60,Delivered,0.94,0.03,10
+P61,Order Placed,0.683,0.07,1
+P61,Payment Confirmation,1.464,0.108,2
+P61,Restaurant Acceptance,1.373,0.069,3
+P61,Ingredient Preparation,1.43,0.017,4
+P61,Cooking,0.075,0.075,5
+P61,Packaging,1.451,0.107,6
+P61,Pickup,0.748,0.025,7
+P61,Transit,1.035,0.045,8
+P61,Out for Delivery,0.554,0.04,9
+P61,Delivered,1.147,0.08,10
+P62,Order Placed,0.662,0.06,1
+P62,Payment Confirmation,1.057,0.099,2
+P62,Restaurant Acceptance,1.07,0.096,3
+P62,Ingredient Preparation,0.975,0.078,4
+P62,Cooking,0.658,0.024,5
+P62,Packaging,1.007,0.026,6
+P62,Pickup,0.41,0.012,7
+P62,Transit,0.845,0.052,8
+P62,Out for Delivery,0.978,0.047,9
+P62,Delivered,1.389,0.014,10
+P63,Order Placed,1.25,0.099,1
+P63,Payment Confirmation,1.049,0.081,2
+P63,Restaurant Acceptance,0.982,0.034,3
+P63,Ingredient Preparation,0.374,0.057,4
+P63,Cooking,0.952,0.035,5
+P63,Packaging,0.139,0.109,6
+P63,Pickup,0.734,0.031,7
+P63,Transit,1.028,0.028,8
+P63,Out for Delivery,0.135,0.037,9
+P63,Delivered,0.451,0.098,10
+P64,Order Placed,1.376,0.021,1
+P64,Payment Confirmation,0.552,0.091,2
+P64,Restaurant Acceptance,1.341,0.014,3
+P64,Ingredient Preparation,1.056,0.071,4
+P64,Cooking,0.762,0.027,5
+P64,Packaging,0.539,0.032,6
+P64,Pickup,1.397,0.043,7
+P64,Transit,1.184,0.032,8
+P64,Out for Delivery,0.068,0.092,9
+P64,Delivered,0.469,0.089,10
+P65,Order Placed,1.35,0.017,1
+P65,Payment Confirmation,1.46,0.011,2
+P65,Restaurant Acceptance,0.203,0.017,3
+P65,Ingredient Preparation,1.049,0.052,4
+P65,Cooking,1.352,0.102,5
+P65,Packaging,1.48,0.065,6
+P65,Pickup,0.398,0.091,7
+P65,Transit,0.272,0.109,8
+P65,Out for Delivery,1.265,0.103,9
+P65,Delivered,0.777,0.075,10
+P66,Order Placed,0.715,0.016,1
+P66,Payment Confirmation,1.423,0.118,2
+P66,Restaurant Acceptance,0.566,0.02,3
+P66,Ingredient Preparation,0.378,0.057,4
+P66,Cooking,0.059,0.04,5
+P66,Packaging,0.658,0.044,6
+P66,Pickup,1.477,0.059,7
+P66,Transit,1.347,0.081,8
+P66,Out for Delivery,0.989,0.054,9
+P66,Delivered,0.687,0.043,10
+P67,Order Placed,1.086,0.087,1
+P67,Payment Confirmation,0.188,0.108,2
+P67,Restaurant Acceptance,0.851,0.039,3
+P67,Ingredient Preparation,0.898,0.093,4
+P67,Cooking,0.53,0.052,5
+P67,Packaging,0.38,0.033,6
+P67,Pickup,0.252,0.088,7
+P67,Transit,0.955,0.085,8
+P67,Out for Delivery,0.263,0.04,9
+P67,Delivered,0.96,0.07,10
+P68,Order Placed,1.006,0.033,1
+P68,Payment Confirmation,1.183,0.016,2
+P68,Restaurant Acceptance,0.761,0.085,3
+P68,Ingredient Preparation,0.478,0.067,4
+P68,Cooking,0.173,0.035,5
+P68,Packaging,0.303,0.047,6
+P68,Pickup,0.574,0.095,7
+P68,Transit,0.559,0.017,8
+P68,Out for Delivery,1.102,0.112,9
+P68,Delivered,0.591,0.064,10
+P69,Order Placed,1.328,0.041,1
+P69,Payment Confirmation,0.99,0.111,2
+P69,Restaurant Acceptance,1.038,0.11,3
+P69,Ingredient Preparation,0.752,0.023,4
+P69,Cooking,0.296,0.107,5
+P69,Packaging,1.13,0.061,6
+P69,Pickup,1.242,0.108,7
+P69,Transit,0.842,0.086,8
+P69,Out for Delivery,1.268,0.024,9
+P69,Delivered,0.199,0.108,10
+P70,Order Placed,0.856,0.08,1
+P70,Payment Confirmation,1.352,0.024,2
+P70,Restaurant Acceptance,1.361,0.083,3
+P70,Ingredient Preparation,1.011,0.074,4
+P70,Cooking,1.234,0.024,5
+P70,Packaging,0.725,0.01,6
+P70,Pickup,1.462,0.044,7
+P70,Transit,0.303,0.072,8
+P70,Out for Delivery,0.098,0.053,9
+P70,Delivered,0.376,0.096,10
+P71,Order Placed,0.23,0.04,1
+P71,Payment Confirmation,1.352,0.085,2
+P71,Restaurant Acceptance,0.452,0.088,3
+P71,Ingredient Preparation,0.151,0.101,4
+P71,Cooking,0.08,0.027,5
+P71,Packaging,0.79,0.038,6
+P71,Pickup,0.497,0.011,7
+P71,Transit,0.061,0.026,8
+P71,Out for Delivery,0.541,0.102,9
+P71,Delivered,0.18,0.062,10
+P72,Order Placed,0.949,0.017,1
+P72,Payment Confirmation,0.164,0.056,2
+P72,Restaurant Acceptance,0.965,0.049,3
+P72,Ingredient Preparation,0.518,0.051,4
+P72,Cooking,1.256,0.075,5
+P72,Packaging,0.652,0.065,6
+P72,Pickup,0.766,0.05,7
+P72,Transit,1.017,0.113,8
+P72,Out for Delivery,0.557,0.035,9
+P72,Delivered,1.188,0.032,10
+P73,Order Placed,0.819,0.063,1
+P73,Payment Confirmation,0.314,0.027,2
+P73,Restaurant Acceptance,0.743,0.022,3
+P73,Ingredient Preparation,0.801,0.108,4
+P73,Cooking,1.402,0.116,5
+P73,Packaging,0.398,0.028,6
+P73,Pickup,0.719,0.023,7
+P73,Transit,0.668,0.067,8
+P73,Out for Delivery,0.62,0.11,9
+P73,Delivered,0.08,0.088,10
+P74,Order Placed,1.498,0.015,1
+P74,Payment Confirmation,0.892,0.063,2
+P74,Restaurant Acceptance,0.159,0.064,3
+P74,Ingredient Preparation,1.013,0.036,4
+P74,Cooking,0.183,0.097,5
+P74,Packaging,1.008,0.03,6
+P74,Pickup,0.861,0.069,7
+P74,Transit,0.698,0.034,8
+P74,Out for Delivery,0.758,0.081,9
+P74,Delivered,1.297,0.089,10
+P75,Order Placed,0.915,0.019,1
+P75,Payment Confirmation,1.15,0.102,2
+P75,Restaurant Acceptance,0.335,0.048,3
+P75,Ingredient Preparation,1.042,0.021,4
+P75,Cooking,0.871,0.118,5
+P75,Packaging,0.671,0.067,6
+P75,Pickup,0.759,0.085,7
+P75,Transit,0.817,0.099,8
+P75,Out for Delivery,0.702,0.076,9
+P75,Delivered,0.715,0.042,10
+P76,Order Placed,0.144,0.11,1
+P76,Payment Confirmation,1.048,0.017,2
+P76,Restaurant Acceptance,1.453,0.091,3
+P76,Ingredient Preparation,1.014,0.077,4
+P76,Cooking,0.712,0.074,5
+P76,Packaging,0.708,0.012,6
+P76,Pickup,0.503,0.053,7
+P76,Transit,1.457,0.085,8
+P76,Out for Delivery,0.164,0.094,9
+P76,Delivered,0.706,0.021,10
+P77,Order Placed,0.313,0.045,1
+P77,Payment Confirmation,1.213,0.033,2
+P77,Restaurant Acceptance,1.388,0.033,3
+P77,Ingredient Preparation,0.105,0.048,4
+P77,Cooking,1.231,0.057,5
+P77,Packaging,1.01,0.038,6
+P77,Pickup,0.681,0.024,7
+P77,Transit,0.416,0.023,8
+P77,Out for Delivery,0.255,0.013,9
+P77,Delivered,0.428,0.077,10
+P78,Order Placed,1.146,0.045,1
+P78,Payment Confirmation,0.111,0.062,2
+P78,Restaurant Acceptance,1.226,0.09,3
+P78,Ingredient Preparation,0.236,0.052,4
+P78,Cooking,1.049,0.075,5
+P78,Packaging,1.286,0.075,6
+P78,Pickup,0.448,0.06,7
+P78,Transit,0.851,0.054,8
+P78,Out for Delivery,0.726,0.073,9
+P78,Delivered,0.42,0.017,10
+P79,Order Placed,0.564,0.082,1
+P79,Payment Confirmation,0.475,0.114,2
+P79,Restaurant Acceptance,1.153,0.047,3
+P79,Ingredient Preparation,1.172,0.042,4
+P79,Cooking,0.669,0.097,5
+P79,Packaging,0.51,0.097,6
+P79,Pickup,0.89,0.095,7
+P79,Transit,0.658,0.08,8
+P79,Out for Delivery,0.293,0.11,9
+P79,Delivered,0.346,0.087,10
+P80,Order Placed,0.776,0.025,1
+P80,Payment Confirmation,0.154,0.026,2
+P80,Restaurant Acceptance,0.183,0.036,3
+P80,Ingredient Preparation,0.102,0.084,4
+P80,Cooking,0.522,0.034,5
+P80,Packaging,1.414,0.102,6
+P80,Pickup,0.404,0.078,7
+P80,Transit,0.982,0.096,8
+P80,Out for Delivery,1.095,0.08,9
+P80,Delivered,0.802,0.112,10
+P81,Order Placed,0.592,0.035,1
+P81,Payment Confirmation,0.129,0.107,2
+P81,Restaurant Acceptance,0.056,0.049,3
+P81,Ingredient Preparation,0.445,0.106,4
+P81,Cooking,0.67,0.066,5
+P81,Packaging,0.32,0.051,6
+P81,Pickup,0.205,0.08,7
+P81,Transit,1.422,0.013,8
+P81,Out for Delivery,0.207,0.066,9
+P81,Delivered,0.288,0.098,10
+P82,Order Placed,0.637,0.046,1
+P82,Payment Confirmation,0.802,0.026,2
+P82,Restaurant Acceptance,0.554,0.024,3
+P82,Ingredient Preparation,0.922,0.016,4
+P82,Cooking,0.968,0.043,5
+P82,Packaging,0.209,0.07,6
+P82,Pickup,0.259,0.119,7
+P82,Transit,0.831,0.067,8
+P82,Out for Delivery,0.303,0.042,9
+P82,Delivered,1.368,0.112,10
+P83,Order Placed,1.026,0.04,1
+P83,Payment Confirmation,1.319,0.108,2
+P83,Restaurant Acceptance,1.083,0.023,3
+P83,Ingredient Preparation,0.567,0.116,4
+P83,Cooking,0.764,0.048,5
+P83,Packaging,0.769,0.074,6
+P83,Pickup,0.054,0.032,7
+P83,Transit,0.197,0.106,8
+P83,Out for Delivery,0.324,0.039,9
+P83,Delivered,0.54,0.044,10
+P84,Order Placed,0.375,0.09,1
+P84,Payment Confirmation,0.447,0.09,2
+P84,Restaurant Acceptance,0.948,0.011,3
+P84,Ingredient Preparation,1.467,0.035,4
+P84,Cooking,1.408,0.018,5
+P84,Packaging,0.679,0.051,6
+P84,Pickup,0.84,0.069,7
+P84,Transit,0.167,0.074,8
+P84,Out for Delivery,0.697,0.06,9
+P84,Delivered,0.915,0.106,10
+P85,Order Placed,0.615,0.097,1
+P85,Payment Confirmation,0.399,0.059,2
+P85,Restaurant Acceptance,0.66,0.11,3
+P85,Ingredient Preparation,0.258,0.027,4
+P85,Cooking,0.37,0.1,5
+P85,Packaging,0.072,0.037,6
+P85,Pickup,0.767,0.05,7
+P85,Transit,0.517,0.061,8
+P85,Out for Delivery,0.597,0.06,9
+P85,Delivered,0.999,0.058,10
+P86,Order Placed,0.632,0.049,1
+P86,Payment Confirmation,0.239,0.06,2
+P86,Restaurant Acceptance,0.835,0.016,3
+P86,Ingredient Preparation,1.209,0.031,4
+P86,Cooking,0.563,0.038,5
+P86,Packaging,0.086,0.017,6
+P86,Pickup,1.385,0.08,7
+P86,Transit,0.442,0.103,8
+P86,Out for Delivery,1.102,0.05,9
+P86,Delivered,1.479,0.028,10
+P87,Order Placed,0.761,0.055,1
+P87,Payment Confirmation,0.763,0.031,2
+P87,Restaurant Acceptance,0.712,0.115,3
+P87,Ingredient Preparation,1.38,0.085,4
+P87,Cooking,1.443,0.105,5
+P87,Packaging,1.292,0.064,6
+P87,Pickup,0.663,0.034,7
+P87,Transit,0.485,0.093,8
+P87,Out for Delivery,0.624,0.046,9
+P87,Delivered,0.238,0.089,10
+P88,Order Placed,0.287,0.118,1
+P88,Payment Confirmation,0.912,0.055,2
+P88,Restaurant Acceptance,1.393,0.107,3
+P88,Ingredient Preparation,1.384,0.029,4
+P88,Cooking,0.913,0.096,5
+P88,Packaging,1.006,0.011,6
+P88,Pickup,0.426,0.034,7
+P88,Transit,0.993,0.095,8
+P88,Out for Delivery,0.666,0.034,9
+P88,Delivered,1.04,0.022,10
+P89,Order Placed,0.308,0.058,1
+P89,Payment Confirmation,0.713,0.072,2
+P89,Restaurant Acceptance,0.615,0.086,3
+P89,Ingredient Preparation,1.315,0.018,4
+P89,Cooking,0.975,0.033,5
+P89,Packaging,0.324,0.059,6
+P89,Pickup,0.067,0.088,7
+P89,Transit,0.913,0.047,8
+P89,Out for Delivery,1.234,0.015,9
+P89,Delivered,0.252,0.108,10
+P90,Order Placed,1.313,0.088,1
+P90,Payment Confirmation,1.356,0.078,2
+P90,Restaurant Acceptance,1.311,0.079,3
+P90,Ingredient Preparation,0.266,0.108,4
+P90,Cooking,1.453,0.021,5
+P90,Packaging,0.594,0.101,6
+P90,Pickup,1.269,0.03,7
+P90,Transit,1.379,0.044,8
+P90,Out for Delivery,0.566,0.036,9
+P90,Delivered,0.792,0.024,10
+P91,Order Placed,1.053,0.116,1
+P91,Payment Confirmation,0.836,0.042,2
+P91,Restaurant Acceptance,0.971,0.097,3
+P91,Ingredient Preparation,0.775,0.089,4
+P91,Cooking,1.151,0.023,5
+P91,Packaging,1.126,0.089,6
+P91,Pickup,0.317,0.104,7
+P91,Transit,0.529,0.064,8
+P91,Out for Delivery,0.316,0.017,9
+P91,Delivered,0.715,0.05,10
+P92,Order Placed,1.37,0.045,1
+P92,Payment Confirmation,0.492,0.113,2
+P92,Restaurant Acceptance,0.382,0.059,3
+P92,Ingredient Preparation,1.195,0.113,4
+P92,Cooking,1.032,0.113,5
+P92,Packaging,0.201,0.066,6
+P92,Pickup,0.737,0.034,7
+P92,Transit,0.842,0.067,8
+P92,Out for Delivery,1.164,0.104,9
+P92,Delivered,1.224,0.06,10
+P93,Order Placed,1.375,0.066,1
+P93,Payment Confirmation,1.463,0.073,2
+P93,Restaurant Acceptance,1.375,0.057,3
+P93,Ingredient Preparation,1.407,0.016,4
+P93,Cooking,1.151,0.093,5
+P93,Packaging,1.03,0.041,6
+P93,Pickup,1.02,0.085,7
+P93,Transit,0.172,0.015,8
+P93,Out for Delivery,0.22,0.081,9
+P93,Delivered,1.476,0.106,10
+P94,Order Placed,0.068,0.06,1
+P94,Payment Confirmation,0.608,0.079,2
+P94,Restaurant Acceptance,0.84,0.052,3
+P94,Ingredient Preparation,0.181,0.011,4
+P94,Cooking,0.634,0.025,5
+P94,Packaging,0.971,0.082,6
+P94,Pickup,0.434,0.033,7
+P94,Transit,1.013,0.046,8
+P94,Out for Delivery,0.129,0.114,9
+P94,Delivered,0.397,0.115,10
+P95,Order Placed,0.325,0.023,1
+P95,Payment Confirmation,0.601,0.039,2
+P95,Restaurant Acceptance,0.134,0.075,3
+P95,Ingredient Preparation,1.017,0.096,4
+P95,Cooking,1.237,0.069,5
+P95,Packaging,0.943,0.022,6
+P95,Pickup,0.786,0.105,7
+P95,Transit,0.418,0.115,8
+P95,Out for Delivery,0.177,0.079,9
+P95,Delivered,0.694,0.108,10
+P96,Order Placed,1.261,0.091,1
+P96,Payment Confirmation,1.258,0.06,2
+P96,Restaurant Acceptance,0.777,0.059,3
+P96,Ingredient Preparation,1.176,0.027,4
+P96,Cooking,1.325,0.026,5
+P96,Packaging,1.468,0.031,6
+P96,Pickup,0.394,0.037,7
+P96,Transit,0.387,0.103,8
+P96,Out for Delivery,1.254,0.065,9
+P96,Delivered,1.002,0.01,10
+P97,Order Placed,0.92,0.037,1
+P97,Payment Confirmation,0.691,0.093,2
+P97,Restaurant Acceptance,0.849,0.033,3
+P97,Ingredient Preparation,0.979,0.105,4
+P97,Cooking,0.771,0.095,5
+P97,Packaging,0.586,0.025,6
+P97,Pickup,0.845,0.031,7
+P97,Transit,1.07,0.058,8
+P97,Out for Delivery,0.609,0.041,9
+P97,Delivered,0.288,0.119,10
+P98,Order Placed,0.225,0.103,1
+P98,Payment Confirmation,1.438,0.017,2
+P98,Restaurant Acceptance,1.364,0.052,3
+P98,Ingredient Preparation,0.189,0.017,4
+P98,Cooking,0.15,0.049,5
+P98,Packaging,0.085,0.034,6
+P98,Pickup,1.459,0.088,7
+P98,Transit,0.894,0.035,8
+P98,Out for Delivery,1.291,0.098,9
+P98,Delivered,1.117,0.023,10
+P99,Order Placed,0.512,0.087,1
+P99,Payment Confirmation,0.572,0.087,2
+P99,Restaurant Acceptance,1.406,0.117,3
+P99,Ingredient Preparation,1.362,0.106,4
+P99,Cooking,0.441,0.119,5
+P99,Packaging,0.63,0.019,6
+P99,Pickup,1.333,0.097,7
+P99,Transit,1.337,0.056,8
+P99,Out for Delivery,0.886,0.055,9
+P99,Delivered,1.033,0.067,10
+P100,Order Placed,0.803,0.052,1
+P100,Payment Confirmation,0.948,0.036,2
+P100,Restaurant Acceptance,1.219,0.055,3
+P100,Ingredient Preparation,1.141,0.074,4
+P100,Cooking,0.551,0.01,5
+P100,Packaging,0.309,0.087,6
+P100,Pickup,0.622,0.067,7
+P100,Transit,0.151,0.115,8
+P100,Out for Delivery,0.277,0.045,9
+P100,Delivered,0.29,0.1,10

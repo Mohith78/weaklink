@@ -1,5 +1,0 @@
-Step,Time,Failure,Dependency
-Order,2.5,0.1,1
-Process,4.0,0.05,2
-Ship,3.0,0.2,1
-Deliver,5.0,0.15,3
