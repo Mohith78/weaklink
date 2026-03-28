@@ -1,0 +1,11 @@
+{
+  "name": "weaklink",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WeakLink static frontend launcher",
+  "scripts": {
+    "dev": "python -m http.server 5500 --directory frontend",
+    "start": "python -m http.server 5500 --directory frontend",
+    "backend": "py frontend/backend/server.py"
+  }
+}
